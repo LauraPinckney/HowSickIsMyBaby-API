@@ -4,8 +4,8 @@
     "question": "Unusual cry",
     "further": "You will know your baby's usual cries from hunger or tiredness. An unusual cry could be: weak, high-pitched, moaning or painful.",
     "answers": [
-      { "a1": "Your baby has an unusal cry", "score": 2 },
-      { "a2": "Your baby does not have an unusual cry", "score": 0 }
+      { "question": "Your baby has an unusal cry", "score": 2 },
+      { "question": "Your baby does not have an unusual cry", "score": 0 }
     ]
   },
   {
@@ -14,18 +14,18 @@
     "further": "Think about the amount of fluid your baby usually takes in 24 hours (do not include solids). Then think about the amount of fluid he or she has actually taken in the last 24 hours. If you are breast feeding you will know for how long your baby usually feeds, and whether your baby is sucking normally. Judge how much your baby is taking.",
     "answers": [
       {
-        "a1": "Your baby has taken a little less fluid than usual",
-        "score": 3
+        "question": "Your baby has taken very little fluid",
+        "score": 9
       },
       {
-        "a2": "Your baby has taken about half as much fluid as usual",
+        "question": "Your baby has taken about half as much fluid as usual",
         "score": 4
       },
       {
-        "a3": "Your baby has taken very little fluid",
-        "score": 9
+        "question": "Your baby has taken a little less fluid than usual",
+        "score": 3
       },
-      { "a4": "Your baby has taken as much fluid as usual", "score": 0 }
+      { "question": "Your baby has taken as much fluid as usual", "score": 0 }
     ]
   },
   {
@@ -34,11 +34,11 @@
     "further": "Most vomiting is not important. Healthy babies often bring back small amounts of milk after a feed. This check is about whether your baby has started vomiting large amounts after several feeds in a row.",
     "answers": [
       {
-        "a1": "Your baby has vomited at least half the feed after every one of the last three feeds",
+        "question": "Your baby has vomited at least half the feed after every one of the last three feeds",
         "score": 4
       },
       {
-        "a2": "Your baby has not vomited over half the feed after every one of the last three feeds",
+        "question": "Your baby has not vomited over half the feed after every one of the last three feeds",
         "score": 0
       }
     ]
@@ -48,8 +48,8 @@
     "question": "Green vomit",
     "further": "Vomit is green when it contains bile. Bile is a bright green liquid which comes from below the stomach. Green vomit may be a sign of obstruction in the intestine. It is unlike any other vomit.",
     "answers": [
-      { "a1": "Your baby has had green vomit", "score": 13 },
-      { "a2": "Your baby has not had green vomit", "score": 0 }
+      { "question": "Your baby has had green vomit", "score": 13 },
+      { "question": "Your baby has not had green vomit", "score": 0 }
     ]
   },
   {
@@ -57,8 +57,11 @@
     "question": "Wet nappies",
     "further": "Think about how wet your baby’s nappies usually are. This will give you an idea of how much urine he or she usually passes.",
     "answers": [
-      { "a1": "Your baby has passed less urine than usual", "score": 3 },
-      { "a2": "Your baby has passed the usual amount of urine", "score": 0 }
+      { "question": "Your baby has passed less urine than usual", "score": 3 },
+      {
+        "question": "Your baby has passed the usual amount of urine",
+        "score": 0
+      }
     ]
   },
   {
@@ -67,11 +70,11 @@
     "further": "You may find small flecks of blood in your baby’s dirty nappy. This is usually due to a tiny split at the opening to the back passage and is not serious.  A large amount of obvious blood may be serious. It could be the result of a blockage or damage to the bowel. ",
     "answers": [
       {
-        "a1": "There has been a large amount of obvious blood in your baby’s nappy (not just a streak on the stool)",
+        "question": "There has been a large amount of obvious blood in your baby’s nappy (not just a streak on the stool)",
         "score": 11
       },
       {
-        "a2": "There has been no obvious blood in your baby's nappy",
+        "question": "There has been no obvious blood in your baby's nappy",
         "score": 0
       }
     ]
@@ -81,9 +84,9 @@
     "question": "Drowsiness",
     "further": "Babies are usually very alert when awake and respond to what is going on around them. An ill baby may be drowsy at times. This check is not about the time your baby has been asleep nor whether he or she has been irritable. If your baby has been drowsy and less alert than usual when awake answer as follows:",
     "answers": [
-      { "a1": "Your baby is occasionally drowsy", "score": 3 },
-      { "a2": "Your baby is drowsy most of the time", "score": 5 },
-      { "a3": "Your baby is not unusally drowsy", "score": 0 }
+      { "question": "Your baby is drowsy most of the time", "score": 5 },
+      { "question": "Your baby is occasionally drowsy", "score": 3 },
+      { "question": "Your baby is not unusally drowsy", "score": 0 }
     ]
   },
   {
@@ -91,8 +94,8 @@
     "question": "Floppiness",
     "further": "You will know how strong and firm your baby usually is.",
     "answers": [
-      { "a1": "Your baby seems more floppy than usual", "score": 4 },
-      { "a2": "Your baby is not more floppy than usual", "score": 0 }
+      { "question": "Your baby seems more floppy than usual", "score": 4 },
+      { "question": "Your baby is not more floppy than usual", "score": 0 }
     ]
   },
   {
@@ -100,8 +103,11 @@
     "question": "Watching",
     "further": "Talk to your baby. Normally babies look at you intently. Is he or she watching your face now?  This check may be difficult if your baby is crying or irritable, but your baby should watch you between cries.",
     "answers": [
-      { "a1": "Your baby is watching you less than usual", "score": 4 },
-      { "a2": "Your baby is not watching you less than usual", "score": 0 }
+      { "question": "Your baby is watching you less than usual", "score": 4 },
+      {
+        "question": "Your baby is not watching you less than usual",
+        "score": 0
+      }
     ]
   },
   {
@@ -110,11 +116,11 @@
     "further": "Healthy babies are aware and respond to what is going on around them. Watch your baby now. Is he or she responding to what is going on?  This check may be difficult if your baby is irritable or crying, but he or she should still be aware and responsive between cries.",
     "answers": [
       {
-        "a1": "Your baby is responding less than usual to what is going on around",
+        "question": "Your baby is responding less than usual to what is going on around",
         "score": 5
       },
       {
-        "a2": "Your baby is responding as usual to what is going on around",
+        "question": "Your baby is responding as usual to what is going on around",
         "score": 0
       }
     ]
@@ -124,12 +130,18 @@
     "question": "Difficulty breathing in",
     "further": "Healthy babies breathe easily and shallowly. If a baby has breathing difficulty the lower chest and upper tummy will dip in with each breath. This is called 'indrawing'. This occurs in well babies when they hiccough or cry hard. When the baby is quiet, watch the lower chest and upper tummy.",
     "answers": [
-      { "a1": "There is indrawing just visible with each breath", "score": 4 },
       {
-        "a2": "There is obvious or deep indrawing with each breath",
+        "question": "There is obvious or deep indrawing with each breath",
         "score": 15
       },
-      { "a3": "There is no indrawinf visible with each breath", "score": 0 }
+      {
+        "question": "There is indrawing just visible with each breath",
+        "score": 4
+      },
+      {
+        "question": "There is no indrawinf visible with each breath",
+        "score": 0
+      }
     ]
   },
   {
@@ -137,12 +149,15 @@
     "question": "Looking pale",
     "further": "Most babies are naturally pale. What’s important here is whether most of your baby’s body is much paler than usual.",
     "answers": [
-      { "a1": "Your baby’s body is much paler than usual", "score": 3 },
+      { "question": "Your baby’s body is much paler than usual", "score": 3 },
       {
-        "a2": "Your baby has had an episode of going very pale at any time during the last 24 hours",
+        "question": "Your baby has had an episode of going very pale at any time during the last 24 hours",
         "score": 3
       },
-      { "a3": "Your baby has not gone pale in the last 24 hours", "score": 0 }
+      {
+        "question": "Your baby has not gone pale in the last 24 hours",
+        "score": 0
+      }
     ]
   },
   {
@@ -150,8 +165,8 @@
     "question": "Wheezing",
     "further": "Babies often make snuffly or throaty noises when they breathe. Wheezing is different. It makes a whistling noise when a baby is having difficulty breathing out.",
     "answers": [
-      { "a1": "Your baby is wheezing when breathing out", "score": 3 },
-      { "a2": "Your baby is not wheezing when breathing out", "score": 0 }
+      { "question": "Your baby is wheezing when breathing out", "score": 3 },
+      { "question": "Your baby is not wheezing when breathing out", "score": 0 }
     ]
   },
   {
@@ -159,8 +174,8 @@
     "question": "Blue nails",
     "further": "Healthy babies’ fingernails and toenails are usually pink. Compare your baby’s nails to the natural colour of your own fingernails.",
     "answers": [
-      { "a1": "Your baby's nails are blue", "score": 3 },
-      { "a2": "Your baby's nails are not blue", "score": 0 }
+      { "question": "Your baby's nails are blue", "score": 3 },
+      { "question": "Your baby's nails are not blue", "score": 0 }
     ]
   },
   {
@@ -169,15 +184,15 @@
     "further": "This check is about how well the blood is getting to your baby’s fingers and toes. Gently squeeze his or her big toe to make it white. This will not hurt your baby. Then let go and wait three seconds. Watch how quickly the colour returns.",
     "answers": [
       {
-        "a1": "Your baby’s toe was completely white before the squeze",
+        "question": "Your baby’s toe was completely white before the squeze",
         "score": 3
       },
       {
-        "a2": "Your baby’s toe colour does not return within three seconds",
+        "question": "Your baby’s toe colour does not return within three seconds",
         "score": 3
       },
       {
-        "a3": "Your baby’s toe colour does return within three seconds",
+        "question": "Your baby’s toe colour does return within three seconds",
         "score": 0
       }
     ]
@@ -188,14 +203,14 @@
     "further": "Babies often have a few spots or small areas of rash. This check is about a rash which covers a large part of your baby’s body, or which is raw or weeping.",
     "answers": [
       {
-        "a1": "Your baby has a rash which covers a large part of the body",
+        "question": "Your baby has a rash which covers a large part of the body",
         "score": 4
       },
       {
-        "a2": "Your baby has a rash which is raw or weeping and is bigger than DIMENSIONS",
+        "question": "Your baby has a rash which is raw or weeping and is bigger than DIMENSIONS",
         "score": 4
       },
-      { "a3": "Your baby does not have a rash", "score": 0 }
+      { "question": "Your baby does not have a rash", "score": 0 }
     ]
   },
   {
@@ -204,11 +219,11 @@
     "further": "A hernia is caused by a small loop of intestine bulging through the muscles in the groin. In boys a hernia shows as an obvious bulge in the groin or scrotum, as shown by the arrow in the picture. It is very rare for a girl to have a hernia. A hernia gets bigger when the baby cries and it may disappear when the baby is quiet or asleep. The shaded groin area on the picture shows you where to look for a hernia. A hernia can appear on either side of the groin.",
     "answers": [
       {
-        "a1": "There is a bulge in the groin or scrotum which gets bigger with crying",
+        "question": "There is a bulge in the groin or scrotum which gets bigger with crying",
         "score": 13
       },
       {
-        "a2": "Ther is not a bulge in the groin or scrotum which gets bigger with crying",
+        "question": "Ther is not a bulge in the groin or scrotum which gets bigger with crying",
         "score": 0
       }
     ]
@@ -219,15 +234,15 @@
     "further": "Babies often develop high temperatures when they are unwell. Your baby’s temperature measurement may depend on where you measure it (ear, mouth, armpit) and what type of thermometer you use. It is important to follow accurately the instructions that come with your thermometer. For babies below four weeks of age use an electronic thermometer in the armpit. For babies above four weeks use an electronic or chemical dot thermometer in the armpit or an infrared tympanic thermometer in the ear.",
     "answers": [
       {
-        "a1": "In a baby below three months, if the temperature is 38.0oC or more",
+        "question": "In a baby below three months, if the temperature is 38.0oC or more",
         "score": 4
       },
       {
-        "a2": "In a baby above three months, if the temperature is 39.0oC or more",
+        "question": "In a baby above three months, if the temperature is 39.0oC or more",
         "score": 4
       },
       {
-        "a3": "Your baby does not have a temperature of 38.0oC or more if below three months or 39.0oC if above three months",
+        "question": "Your baby does not have a temperature of 38.0oC or more if below three months or 39.0oC if above three months",
         "score": 0
       }
     ]
@@ -238,11 +253,11 @@
     "further": "This check is about how much your baby has cried during the checks.",
     "answers": [
       {
-        "a1": "If your baby has cried during the checks (more than a little grizzle)",
+        "question": "If your baby has cried during the checks (more than a little grizzle)",
         "score": 3
       },
       {
-        "a2": "Your baby has not cried during the checks (but may have had a little grizzle)",
+        "question": "Your baby has not cried during the checks (but may have had a little grizzle)",
         "score": 0
       }
     ]
