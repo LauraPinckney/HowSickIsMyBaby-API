@@ -1,18 +1,22 @@
 [
   {
-    "range": 7,
+    "lower": 0,
+    "upper": 7,
     "description": "Your baby is only a little unwell, and medical attention should not be necessary."
   },
   {
-    "range": 12,
+    "lower": 8,
+    "upper": 12,
     "description": "Your baby is unwell, but is unlikely to be seriously ill. You may want advice from your doctor, health visitor or midwife."
   },
   {
-    "range": 19,
+    "lower": 13,
+    "upper": 19,
     "description": "Your baby is ill. Contact your doctor and arrange for your baby to be seen."
   },
   {
-    "range": 20,
+    "lower": 20,
+    "upper": 100,
     "description": "Your baby may be seriously ill and should be seen by a doctor straight away."
   }
 ]
